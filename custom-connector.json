@@ -1,0 +1,9 @@
+{
+    "name": "my-custom-connector",
+    "config": {
+        "connector.class": "ir.connector.CustomConnector",
+        "FIRST_REQUIRED_PARAMETER": "param-1",
+        "SECOND_REQUIRED_PARAMETER": "param-2",
+        "tasks.max": "1"
+    }
+}
